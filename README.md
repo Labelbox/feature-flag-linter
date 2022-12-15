@@ -1,5 +1,7 @@
 # Flag Linter
+
 ![got em]([https://github.com/Labelbox/feature-flag-linter/blob/main/screenshot.png?raw=true)
+
 The code in this repository checks the compliance of feature flags with a given set of requirements.
 
 To use the code, you will need to provide your own LaunchDarkly API key and Slack bot key in a .env file, using the following format:
