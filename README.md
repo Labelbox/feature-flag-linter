@@ -17,6 +17,18 @@ SLACK_CHANNEL_URL=<your-slack-channel-url>
 
 Follow these instructions to get the URL: https://api.slack.com/messaging/webhooks
 
+## Setup
+
+For MacOS:
+```
+brew install virtualenv
+virtualenv env
+source env/bin/activate
+pip install -U python-dotenv
+pip install -U requests
+```
+
+## Run it
 Once you have provided your API keys and Slack channel URL, you can run the code by using the following command:
 
 ```
