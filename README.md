@@ -6,7 +6,8 @@ The code in this repository checks the compliance of feature flags with a given 
 
 To use the code, you will need to provide your own LaunchDarkly API key and Slack bot key in a .env file, using the following format:
 ```
-LAUNCH_DARKLY_KEY=<your-launch-darkly-key> SLACK_BOT_KEY=<your-slack-bot-key>
+LAUNCH_DARKLY_KEY=<your-launch-darkly-key>
+SLACK_BOT_KEY=<your-slack-bot-key>
 ```
 
 You will also need to provide the URL for the Slack channel where you want the results to be posted. This can be done by adding the following line to your .env file:
