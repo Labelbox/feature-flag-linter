@@ -1,6 +1,6 @@
 # Flag Linter
 
-![gotem]([https://github.com/Labelbox/feature-flag-linter/blob/main/screenshot.png?raw=true)
+![gotem](screenshot.png)
 
 The code in this repository checks the compliance of feature flags with a given set of requirements.
 
